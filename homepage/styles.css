@@ -1,0 +1,43 @@
+header {
+    width: 100%;
+    height: 80px;
+    background: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px;
+
+}
+header > .access-links {
+
+    display: flex;
+
+}
+.access-links ul {
+    display: flex;
+    gap: 8px;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.access-links > ul > li > a {
+    color: gray;
+    font-weight: bold;
+}
+.access-links > ul > li > a:hover {
+    color: white;
+    font-weight: bold;
+}
+.counter {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    background: black;
+    color: white;
+    display: flex;
+    padding: 1rem 10px;
+}

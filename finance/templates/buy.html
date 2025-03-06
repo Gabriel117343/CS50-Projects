@@ -1,0 +1,21 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+buy
+{% endblock %}
+{% block main %}
+<section class="container mx-auto">
+    <form action="/buy" method="POST">
+        <div class="form-group mb-2">
+            <input class="form-control" type="text" name="symbol" placeholder="Symbol"  />
+        </div>
+        <div class="form-group">
+            <input class="form-control" type="number" name="shares" placeholder="shares" min="1" />
+        </div>
+        <div class="flex justify-content-center mt-4">
+            <button class="btn btn-primary">Buy</button>
+        </div>
+
+    </form>
+</section>
+{% endblock %}

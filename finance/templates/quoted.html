@@ -1,0 +1,24 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+{% block main %}
+    <section class="mx-auto">
+        <article class="d-flex row border rounded p-4">
+            <h3 class="text-center">Current Symbol: {{ result_quote.symbol }}</h3>
+            <p class="">
+                <strong>Name:</strong>
+                {{ result_quote.name }}
+            </p>
+            <p>
+                <strong>Price:</strong>
+                {{ result_quote.price }}
+            </p>
+
+        </article>
+        <div class="d-flex justify-content-center">
+            <a href="/quote" class="btn btn-info">Back</a>
+        </div>
+    </section>
+{% endblock %}

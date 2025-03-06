@@ -1,0 +1,5 @@
+If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?
+R. several colors that represent moods in my life.
+
+Hypothesize about why the way you’ve calculated this aura might not be very representative of the listener. What better ways of calculating this aura would you propose?
+R. It could be represeted through the amount of timas that the people repeat one song along one mount or year:

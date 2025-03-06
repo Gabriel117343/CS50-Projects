@@ -1,0 +1,15 @@
+sort1 uses: bubble sort
+
+How do you know?: this is less efective to sort big random numbers than others, like merge sort or selecting sort, for example in the sort one
+it took around 0.505s to sort random10000.txt. Besides i Known that this algorithm is more Effective to Sort Big ammount of numbers (already sorted) than selection Sort but
+selection sort but no when the are random numbers, but merge sort it's much faster in that case.
+
+sort2 uses: merge sort
+
+How do you know?: I noticed that this algorithm of sort is faster than sort1, just taking 0.038s to sort random10000.txt and fasted than sort3.
+That's why I conclued that this is the algorithm merge sort.
+
+sort3 uses: selection sort
+
+How do you know?: this algorithm of sort is too similar to sort1 with random10000.txt, but when I increased the ammout of numbers to 50.000 numbers
+this took double ammount of thime than using buble sort(sort1). I concluded that this is selection sort.
